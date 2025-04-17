@@ -1,0 +1,61 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+Batch index: 8
+Model: a
+Sample size: 300
+Dimension: 9
+Candidate vector: 10:100
+Bandwidth: 0.05 0.1 0.15 0.2 0.25 0.3 0.35
+Simulation: 40
+Loading required package: iterators
+Loading required package: parallel
+
+Attaching package: ‘expm’
+
+The following object is masked from ‘package:Matrix’:
+
+    expm
+
+Time difference of 25.92928 mins
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+1 0.05        0.4894349        0.5296714          0.4894349          0.5296714
+  max_width90.zhou.iso max_width95.zhou.iso
+1            0.4894349            0.5296714
+Time difference of 25.91257 mins
+   hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+2 0.1        0.5248164        0.5708867          0.5248164          0.5708867
+  max_width90.zhou.iso max_width95.zhou.iso
+2            0.5248164            0.5708867
+Time difference of 25.37735 mins
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+3 0.15        0.5069643        0.5572062          0.5069643          0.5572062
+  max_width90.zhou.iso max_width95.zhou.iso
+3            0.5069643            0.5572062
+Time difference of 26.32485 mins
+   hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+4 0.2        0.4407461        0.4843957          0.4407461          0.4843957
+  max_width90.zhou.iso max_width95.zhou.iso
+4            0.4407461            0.4843957
+Time difference of 26.3115 mins
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+5 0.25        0.3886468        0.4284254          0.3886468          0.4284254
+  max_width90.zhou.iso max_width95.zhou.iso
+5            0.3886468            0.4284254
+Time difference of 26.18537 mins
+   hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+6 0.3        0.3447646         0.380951          0.3447646           0.380951
+  max_width90.zhou.iso max_width95.zhou.iso
+6            0.3447646             0.380951
+Time difference of 26.64103 mins
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+7 0.35        0.3065176        0.3387819          0.3065176          0.3387819
+  max_width90.zhou.iso max_width95.zhou.iso
+7            0.3065176            0.3387819

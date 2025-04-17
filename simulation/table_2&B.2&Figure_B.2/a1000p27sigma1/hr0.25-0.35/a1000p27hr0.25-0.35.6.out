@@ -1,0 +1,42 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+Batch index: 6
+Model: a
+Sample size: 1000
+Dimension: 27
+Candidate vector: 40:200
+Bandwidth: 0.25 0.3 0.35
+GCV: FALSE
+Simulation: 40
+Loading required package: iterators
+Loading required package: parallel
+
+Attaching package: ‘expm’
+
+The following object is masked from ‘package:Matrix’:
+
+    expm
+
+Time difference of 4.607805 hours
+    hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+1 0.25 0.1587401          0.85         0.925          0.85         0.925
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+1 0.2260854 0.2470622 0.2219314 0.2429277
+Time difference of 4.740312 hours
+   hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+2 0.3 0.2008299          0.85         0.925           0.8         0.925
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+2 0.1989242 0.2175132 0.1965872 0.2153216
+Time difference of 4.802585 hours
+    hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+3 0.35 0.2466555          0.85         0.925          0.85         0.925
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+3 0.1761431 0.1935186 0.1765972 0.1941181

@@ -1,0 +1,41 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+Batch index: 1
+Model: b
+Sample size: 1000
+Dimension: 27
+Candidate vector: 40:200
+Bandwidth: 0.25 0.3 0.35
+Simulation: 40
+Loading required package: iterators
+Loading required package: parallel
+
+Attaching package: ‘expm’
+
+The following object is masked from ‘package:Matrix’:
+
+    expm
+
+Time difference of 7.419448 hours
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+1 0.25        0.2823772        0.3080989          0.2823772          0.3080989
+  max_width90.zhou.iso max_width95.zhou.iso
+1            0.2823772            0.3080989
+Time difference of 8.190394 hours
+   hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+2 0.3        0.2508203        0.2728678          0.2508203          0.2728678
+  max_width90.zhou.iso max_width95.zhou.iso
+2            0.2508203            0.2728678
+Time difference of 7.693943 hours
+    hr max_width90.zhou max_width95.zhou max_width90.zhou.m max_width95.zhou.m
+3 0.35        0.2243232        0.2451801          0.2243232          0.2451801
+  max_width90.zhou.iso max_width95.zhou.iso
+3            0.2243232            0.2451801

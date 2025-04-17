@@ -1,0 +1,62 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+Batch index: 1
+Model: a
+Sample size: 500
+Dimension: 18
+Candidate vector: 20:100
+Bandwidth: 0.05 0.1 0.15 0.2 0.25 0.3 0.35
+GCV: FALSE
+Simulation: 40
+Loading required package: iterators
+Loading required package: parallel
+
+Attaching package: ‘expm’
+
+The following object is masked from ‘package:Matrix’:
+
+    expm
+
+Time difference of 1.884759 hours
+    hr         hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+1 0.05 0.04847024         0.125         0.275         0.225         0.575
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+1 0.2656603 0.2933818 0.2340453 0.2572825
+Time difference of 1.979143 hours
+   hr         hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+2 0.1 0.09694048           0.8          0.95           0.8          0.95
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+2 0.3337697 0.3663507 0.3131206 0.3451295
+Time difference of 2.028756 hours
+    hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+3 0.15 0.1454107           0.9             1         0.875         0.975
+   SCB90.hr  SCB95.hr SCB90.hd  SCB95.hd
+3 0.3416147 0.3756959 0.322803 0.3578793
+Time difference of 2.294907 hours
+   hr       hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd SCB90.hr
+4 0.2 0.193881           0.9         0.975         0.875          0.95 0.312206
+   SCB95.hr SCB90.hd  SCB95.hd
+4 0.3437044 0.294241 0.3261262
+Time difference of 2.109231 hours
+    hr  hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd  SCB90.hr
+5 0.25 0.2          0.85         0.975         0.875             1 0.2865585
+   SCB95.hr SCB90.hd  SCB95.hd
+5 0.3152399 0.275939 0.3044466
+Time difference of 2.116133 hours
+   hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+6 0.3 0.2008299         0.875         0.975         0.875             1
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+6 0.2630401 0.2898238 0.2595931 0.2865493
+Time difference of 2.146563 hours
+    hr        hd is.cover90.hr is.cover95.hr is.cover90.hd is.cover95.hd
+7 0.35 0.2466555         0.825         0.925         0.825         0.925
+   SCB90.hr  SCB95.hr  SCB90.hd  SCB95.hd
+7 0.2331783 0.2573301 0.2338494 0.2579551

@@ -1,0 +1,41 @@
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) mii/1.1.2
+
+The following have been reloaded with a version change:
+  1) StdEnv/2023 => StdEnv/2020           5) libfabric/1.18.0 => libfabric/1.10.1
+  2) gcccore/.12.3 => gcccore/.9.3.0      6) openmpi/4.1.5 => openmpi/4.0.3
+  3) gentoo/2023 => gentoo/2020           7) ucx/1.14.1 => ucx/1.8.0
+  4) imkl/2023.2.0 => imkl/2020.1.217
+
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: Matrix
+
+Attaching package: ‘expm’
+
+The following object is masked from ‘package:Matrix’:
+
+    expm
+
+Time difference of 20.95905 mins
+    hr         hd coverage90 coverage95  width90  width95
+1 0.05 0.00264674      0.975      0.975 2.010998 2.319893
+Time difference of 20.82283 mins
+   hr         hd coverage90 coverage95   width90   width95
+2 0.1 0.01058696       0.95          1 0.6830752 0.7746898
+Time difference of 21.06461 mins
+    hr         hd coverage90 coverage95   width90   width95
+3 0.15 0.02382066      0.975          1 0.5507938 0.6221693
+Time difference of 21.27058 mins
+   hr         hd coverage90 coverage95   width90   width95
+4 0.2 0.04234783       0.95          1 0.4767207 0.5384632
+Time difference of 21.38337 mins
+    hr         hd coverage90 coverage95   width90   width95
+5 0.25 0.06616849       0.95      0.975 0.4257266 0.4815297
+Time difference of 21.3002 mins
+   hr         hd coverage90 coverage95   width90   width95
+6 0.3 0.09528263        0.8       0.95 0.3852147 0.4353677
+Time difference of 21.42191 mins
+    hr        hd coverage90 coverage95   width90   width95
+7 0.35 0.1296902      0.775      0.875 0.3454736 0.3918426
